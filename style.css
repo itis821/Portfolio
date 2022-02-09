@@ -224,3 +224,8 @@ button {
 .job__period {
   font-size: var(--font-micro);
 }
+
+.job__logo {
+  width: 40px;
+  height: 40px;
+}
