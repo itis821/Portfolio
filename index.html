@@ -1,320 +1,311 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Jisu's Portfolio</title>
-    <meta 
-        name = "description" 
-        content="Portfolio for world-renowned software engineer Jisu"
-        />
-    <meta name = "author" content="Jisu"/>
-    <link rel="icon" type="image/png" href="imgs/favicon.png" />
-    <script 
-        src="https://kit.fontawesome.com/a7aa75c355.js" 
-        crossorigin="anonymous"
-    ></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"/>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Jisu's Portfolio</title>
+        <meta 
+            name = "description" 
+            content="Portfolio for world-renowned software engineer Jisu"
+            />
+        <meta name = "author" content="Jisu"/>
+        <link rel="icon" type="image/png" href="imgs/favicon.png" />
+        <script 
+            src="https://kit.fontawesome.com/a7aa75c355.js" 
+            crossorigin="anonymous"
+        ></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"/>
 
-    <link rel="stylesheet" href="style.css" />
-    <script src = "main.js" defer></script>
-    
-</head>
-<body>
-    <!-- Navbar -->
-    <nav id="navbar">
-        <div class="navbar__logo"></div>
-        <i class="fas fa-yin-yang"></i>
-        <a href="#">Jisu</a>
-        <ul class="navbar__menu">
-            <li class="navbar__menu__item">Home</li>
-            <li class="navbar__menu__item">About</li>
-            <li class="navbar__menu__item">Skills</li>
-            <li class="navbar__menu__item">My work</li>
-            <li class="navbar__menu__item">Testimonial</li>
-            <li class="navbar__menu__item">Contact</li>
-        </ul> 
-    </nav>
+        <link rel="stylesheet" href="style.css" />
+        <script src = "main.js" defer></script>
+        
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav id="navbar">
+            <div class="navbar__logo"></div>
+            <i class="fas fa-yin-yang"></i>
+            <a href="#">Jisu</a>
+            <ul class="navbar__menu">
+                <li class="navbar__menu__item">Home</li>
+                <li class="navbar__menu__item">About</li>
+                <li class="navbar__menu__item">Skills</li>
+                <li class="navbar__menu__item">My work</li>
+                <li class="navbar__menu__item">Testimonial</li>
+                <li class="navbar__menu__item">Contact</li>
+            </ul> 
+        </nav>
 
-    <!-- Home -->
-    <section id="home">
-        <img src="imgs/profile.jpeg" alt="Jisu's profile photo" class="home__profile">
-        <h1 class="home__title">Hello,<br />I'm Jisu Lee</h1>
-        <h2 class="home__description">A Software Engineer currently residing in Suwon, Republic of Korea</h2>
-        <button class="home__contact">CONTACT ME</button>
-    </section>
+        <!-- Home -->
+        <section id="home">
+            <img src="imgs/profile.jpeg" alt="Jisu's profile photo" class="home__profile">
+            <h1 class="home__title">Hello,<br />I'm Jisu Lee</h1>
+            <h2 class="home__description">A Software Engineer currently residing in Suwon, Republic of Korea</h2>
+            <button class="home__contact">CONTACT ME</button>
+        </section>
 
-    <!-- About me -->
-    <section id="about">
-        <h1>About me</h1>
-        <p>
-            Time is running out - Muse<br />
-            Can't stop - RHCP<br />
-            민수는 혼란스럽다 - 민수
-        </p>
-        <div class="about__majors">
-            <div class="major">
-                <div class="major__icon">
-                    <i class="fab fa-html5"></i>
+        <!-- About me -->
+        <section id="about">
+            <h1>About me</h1>
+            <p>
+                Time is running out - Muse<br />
+                Can't stop - RHCP<br />
+                민수는 혼란스럽다 - 민수
+            </p>
+            <div class="about__majors">
+                <div class="major">
+                    <div class="major__icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <div class="major__title">Front-end</div>
+                    <div class="major__description">
+                        HTML, CSS, JavaScript, TypeScript,
+                        <br />React, Vue, Web APIs
+                    </div>    
                 </div>
-                <div class="major__title">Front-end</div>
-                <div class="major__description">
-                    HTML, CSS, JavaScript, TypeScript,
-                    <br />React, Vue, Web APIs
-                </div>    
-            </div>
-            <div class="major">
-                <div class="major__icon">
-                    <i class="fas fa-mobile-alt"></i>
+                <div class="major">
+                    <div class="major__icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="major__title">Mobile</div>
+                    <div class="major__description">
+                        Android, iOS, React Native,Flutter
+                        <br />java, Swift, Kotlin
+                    </div>    
                 </div>
-                <div class="major__title">Mobile</div>
-                <div class="major__description">
-                    Android, iOS, React Native,Flutter
-                    <br />java, Swift, Kotlin
-                </div>    
-            </div>
-            <div class="major">
-                <div class="major__icon">
-                    <i class="fas fa-server"></i>
+                <div class="major">
+                    <div class="major__icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <div class="major__title">Back-end</div>
+                    <div class="major__description">
+                        Java, JavaScript, Go, NodeJS,
+                        <br />Rest APIs, GraphGL
+                    </div>    
                 </div>
-                <div class="major__title">Back-end</div>
-                <div class="major__description">
-                    Java, JavaScript, Go, NodeJS,
-                    <br />Rest APIs, GraphGL
-                </div>    
             </div>
-        </div>
-        <div class="about__jobs">
-            <div class="job">
-                <img 
-                src="imgs/jobs/kakao-corp-vector-logo-small.png" 
-                alt="kakao__logo" 
-                class="job__logo"
-                />
-                <p class="job__name">Currently working at Kakao as Software Engineer</p>
-                <p class="job__period">2024 JAN - Until Now</p>
+            <div class="about__jobs">
+                <div class="job">
+                    <img 
+                    src="imgs/jobs/kakao-corp-vector-logo-small.png" 
+                    alt="kakao__logo" 
+                    class="job__logo"
+                    />
+                    <p class="job__name">Currently working at Kakao as Software Engineer</p>
+                    <p class="job__period">2024 JAN - Until Now</p>
+                </div>
+                <div class="job">
+                    <img 
+                    src="imgs/jobs/ajou__logo.png" 
+                    alt="ajou-university__logo" 
+                    class="job__logo"
+                    />
+                    <p class="job__name">Currently studying at Ajou University</p>
+                    <p class="job__period">2018 MAR - Until Now</p>
+                </div>
             </div>
-            <div class="job">
-                <img 
-                src="imgs/jobs/ajou__logo.png" 
-                alt="ajou-university__logo" 
-                class="job__logo"
-                />
-                <p class="job__name">Currently studying at Ajou University</p>
-                <p class="job__period">2018 MAR - Until Now</p>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Skills -->
-    <section id="skills">
-        <h1>Skills</h1>
-        <h2>Skills & Attributes</h2>
-        <p>
-            Experience with all phases of the software life-cycle. Passion for learning new technologies.
-            Capable of <br />working within a team environment and independently. Ability to plan and time schedule.
-            work under<br />strict time pressure and adapt quickly
-        </p>
-        <div class="skillset">
-            <div class="skillset__left">
-                <h3 class="skllset__title">Skills</h3>
-                <div class="skill">
-                    <div class="skill_description">
-                        <span>HTML</span>
-                        <span>99%</span>
+        <!-- Skills -->
+        <section id="skills">
+            <h1>Skills</h1>
+            <h2>Skills & Attributes</h2>
+            <p>
+                Experience with all phases of the software life-cycle. Passion for learning new technologies.
+                Capable of <br />working within a team environment and independently. Ability to plan and time schedule.
+                work under<br />strict time pressure and adapt quickly
+            </p>
+            <div class="skillset">
+                <div class="skillset__left">
+                    <h3 class="skllset__title">Skills</h3>
+                    <div class="skill">
+                        <div class="skill_description">
+                            <span>HTML</span>
+                            <span>99%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value"></div>
+                        </div>
                     </div>
-                    <div class="skill__bar">
-                        <div class="skill__value"></div>
+                    <div class="skill">
+                        <div class="skill_description">
+                            <span>CSS</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill_description">
+                            <span>JAVASCRIPT</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill_description">
+                            <span>TYPESCRIPT</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill_description">
+                            <span>REACT</span>
+                            <span>88%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill_description">
+                            <span>NODEJS</span>
+                            <span>77%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value"></div>
+                        </div>
                     </div>
                 </div>
-                <div class="skill">
-                    <div class="skill_description">
-                        <span>CSS</span>
-                        <span>90%</span>
+                <div class="skillset_right">
+                    <div class="tolls">
+                        <h3 class="skillset__title">Tools</h3>
+                        <ul class="tools__list">
+                            <li><span>Android development tools</span></li>
+                            <li><span>iOS development tools</span></li>
+                            <li><span>Sublime Text with Plug-ings</span></li>
+                            <li><span>Visual Studio</span></li>
+                            <li><span>Team Foundation</span></li>
+                            <li><span>Adobe Programs</span></li>
+                            <li><span>Sketch app</span></li>
+                        </ul>
                     </div>
-                    <div class="skill__bar">
-                        <div class="skill__value"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="skill_description">
-                        <span>JAVASCRIPT</span>
-                        <span>90%</span>
-                    </div>
-                    <div class="skill__bar">
-                        <div class="skill__value"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="skill_description">
-                        <span>TYPESCRIPT</span>
-                        <span>80%</span>
-                    </div>
-                    <div class="skill__bar">
-                        <div class="skill__value"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="skill_description">
-                        <span>REACT</span>
-                        <span>88%</span>
-                    </div>
-                    <div class="skill__bar">
-                        <div class="skill__value"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="skill_description">
-                        <span>NODEJS</span>
-                        <span>77%</span>
-                    </div>
-                    <div class="skill__bar">
-                        <div class="skill__value"></div>
+                    <div class="etc">
+                        <h3 class="skillset__title">Etc</h3>
+                        <ul class="etc__list">
+                            <li><span>Git</span></li>
+                        </ul>
                     </div>
                 </div>
             </div>
-            <div class="skillset_right">
-                <div class="tolls">
-                    <h3 class="skillset__title">Tools</h3>
-                    <ul class="tools__list">
-                        <li><span>Android development tools</span></li>
-                        <li><span>iOS development tools</span></li>
-                        <li><span>Sublime Text with Plug-ings</span></li>
-                        <li><span>Visual Studio</span></li>
-                        <li><span>Team Foundation</span></li>
-                        <li><span>Adobe Programs</span></li>
-                        <li><span>Sketch app</span></li>
-                    </ul>
-                </div>
-                <div class="etc">
-                    <h3 class="skillset__title">Etc</h3>
-                    <ul class="etc__list">
-                        <li><span>Git</span></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Works -->
-    <section id="works">
-        <h1>My work</h1>
-        <h3>Projects</h3>
-        <div class="work__categories">
-            <button class="category__btn">All<span class = "category__count">8</span></button>
-            <button class="category__btn">Front-end<span class = "category__count">3</span></button>
-            <button class="category__btn">Back-end<span class = "category__count">3</span></button>
-            <button class="category__btn">Mobile<span class = "category__count">2</span></button>
-        </div>
+        <!-- Works -->
+        <section id="works">
+            <h1>My work</h1>
+            <h3>Projects</h3>
+            <div class="work__categories">
+                <button class="category__btn">All<span class = "category__count">8</span></button>
+                <button class="category__btn">Front-end<span class = "category__count">3</span></button>
+                <button class="category__btn">Back-end<span class = "category__count">3</span></button>
+                <button class="category__btn">Mobile<span class = "category__count">2</span></button>
+            </div>
 
-        <div class="work__projects">
-            <a 
-            href="https://github.com/itis821" 
-            class="project"
-            target="blank"
-            >
-            <img src="imgs/projects/IMG_0045.PNG" classs = "project__img" alt="Portfolio__screenshot">
-            <div class="project__description">
-                <h3>Portfolio Site</h3>
-                <span>Portfolio Clone coding</span>
-            </div>
-            </a>
-            <a 
-            href="https://github.com/itis821" 
-            class="project"
-            target="blank"
-            >
-            <img src="imgs/projects/IMG_0045.PNG" classs = "project__img" alt="Portfolio__screenshot">
-            <div class="project__description">
-                <h3>Portfolio Site</h3>
-                <span>Portfolio Clone coding</span>
-            </div>
-            </a>
-            <a 
-            href="https://github.com/itis821" 
-            class="project"
-            target="blank"
-            >
-            <img src="imgs/projects/IMG_0045.PNG" classs = "project__img" alt="Portfolio__screenshot">
-            <div class="project__description">
-                <h3>Portfolio Site</h3>
-                <span>Portfolio Clone coding</span>
-            </div>
-            </a>
-            <a 
-            href="https://github.com/itis821" 
-            class="project"
-            target="blank"
-            >
-            <img src="imgs/projects/IMG_0045.PNG" classs = "project__img" alt="Portfolio__screenshot">
-            <div class="project__description">
-                <h3>Portfolio Site</h3>
-                <span>Portfolio Clone coding</span>
-            </div>
-            </a>
-            <a 
-            href="https://github.com/itis821" 
-            class="project"
-            target="blank"
-            >
-            <img src="imgs/projects/IMG_0045.PNG" classs = "project__img" alt="Portfolio__screenshot">
-            <div class="project__description">
-                <h3>Portfolio Site</h3>
-                <span>Portfolio Clone coding</span>
-            </div>
-            </a>
-            <a 
-            href="https://github.com/itis821" 
-            class="project"
-            target="blank"
-            >
-            <img src="imgs/projects/IMG_0045.PNG" classs = "project__img" alt="Portfolio__screenshot">
-            <div class="project__description">
-                <h3>Portfolio Site</h3>
-                <span>Portfolio Clone coding</span>
-            </div>
-            </a>
-            <a 
-            href="https://github.com/itis821" 
-            class="project"
-            target="blank"
-            >
-            <img src="imgs/projects/IMG_0045.PNG" classs = "project__img" alt="Portfolio__screenshot">
-            <div class="project__description">
-                <h3>Portfolio Site</h3>
-                <span>Portfolio Clone coding</span>
-            </div>
-            </a>
-            <a 
-            href="https://github.com/itis821" 
-            class="project"
-            target="blank"
-            >
-            <img src="imgs/projects/IMG_0045.PNG" classs = "project__img" alt="Portfolio__screenshot">
-            <div class="project__description">
-                <h3>Portfolio Site</h3>
-                <span>Portfolio Clone coding</span>
-            </div>
-            </a>           
-        </div>
-    </section>
-
-    <!-- Testmonials -->
-    <section id="testimonials">
-        <h1>Testimonial</h1>
-        <h3>See what they say about me</h3>
-        <div class="testimonials">
-            <div class="testmonial">
-                <img src="imgs/testmonial/people1.jpeg" 
-                alt="testmonial__avatar" 
-                class="testmonial__avatar"
-                />
-                <div class="testmonials__speech-bubble">
-                    <p>Awesome!! Bassist ever</p>
-                    <p class="name"><a href="">RHCP / Samsung</a></p>
+            <div class="work__projects">
+                <a 
+                href="https://github.com/itis821" 
+                class="project"
+                target="blank"
+                >
+                <img src="imgs/projects/IMG_0045.PNG" classs = "project__img" alt="Portfolio__screenshot">
+                <div class="project__description">
+                    <h3>Portfolio Site</h3>
+                    <span>Portfolio Clone coding</span>
                 </div>
+                </a>
+                <a 
+                href="https://github.com/itis821" 
+                class="project"
+                target="blank"
+                >
+                <img src="imgs/projects/IMG_0045.PNG" classs = "project__img" alt="Portfolio__screenshot">
+                <div class="project__description">
+                    <h3>Portfolio Site</h3>
+                    <span>Portfolio Clone coding</span>
+                </div>
+                </a>
+                <a 
+                href="https://github.com/itis821" 
+                class="project"
+                target="blank"
+                >
+                <img src="imgs/projects/IMG_0045.PNG" classs = "project__img" alt="Portfolio__screenshot">
+                <div class="project__description">
+                    <h3>Portfolio Site</h3>
+                    <span>Portfolio Clone coding</span>
+                </div>
+                </a>
+                <a 
+                href="https://github.com/itis821" 
+                class="project"
+                target="blank"
+                >
+                <img src="imgs/projects/IMG_0045.PNG" classs = "project__img" alt="Portfolio__screenshot">
+                <div class="project__description">
+                    <h3>Portfolio Site</h3>
+                    <span>Portfolio Clone coding</span>
+                </div>
+                </a>
+                <a 
+                href="https://github.com/itis821" 
+                class="project"
+                target="blank"
+                >
+                <img src="imgs/projects/IMG_0045.PNG" classs = "project__img" alt="Portfolio__screenshot">
+                <div class="project__description">
+                    <h3>Portfolio Site</h3>
+                    <span>Portfolio Clone coding</span>
+                </div>
+                </a>
+                <a 
+                href="https://github.com/itis821" 
+                class="project"
+                target="blank"
+                >
+                <img src="imgs/projects/IMG_0045.PNG" classs = "project__img" alt="Portfolio__screenshot">
+                <div class="project__description">
+                    <h3>Portfolio Site</h3>
+                    <span>Portfolio Clone coding</span>
+                </div>
+                </a>
+                <a 
+                href="https://github.com/itis821" 
+                class="project"
+                target="blank"
+                >
+                <img src="imgs/projects/IMG_0045.PNG" classs = "project__img" alt="Portfolio__screenshot">
+                <div class="project__description">
+                    <h3>Portfolio Site</h3>
+                    <span>Portfolio Clone coding</span>
+                </div>
+                </a>
+                <a 
+                href="https://github.com/itis821" 
+                class="project"
+                target="blank"
+                >
+                <img src="imgs/projects/IMG_0045.PNG" classs = "project__img" alt="Portfolio__screenshot">
+                <div class="project__description">
+                    <h3>Portfolio Site</h3>
+                    <span>Portfolio Clone coding</span>
+                </div>
+                </a>           
+            </div>
+        </section>
+
+        <!-- Testmonials -->
+        <section id="testimonials">
+            <h1>Testimonial</h1>
+            <h3>See what they say about me</h3>
+            <div class="testimonials">
                 <div class="testmonial">
                     <img src="imgs/testmonial/people1.jpeg" 
                     alt="testmonial__avatar" 
@@ -324,11 +315,35 @@
                         <p>Awesome!! Bassist ever</p>
                         <p class="name"><a href="">RHCP / Samsung</a></p>
                     </div>
+                    <div class="testmonial">
+                        <img src="imgs/testmonial/people1.jpeg" 
+                        alt="testmonial__avatar" 
+                        class="testmonial__avatar"
+                        />
+                        <div class="testmonials__speech-bubble">
+                            <p>Awesome!! Bassist ever</p>
+                            <p class="name"><a href="">RHCP / Samsung</a></p>
+                        </div>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Contact -->
-    <section id="contact"></section>
-</body>
+        <!-- Contact -->
+        <section id="contact">
+            <h1 class="contact__title">Let's talk</h1>
+            <h2 class="contact__email">itis821@gmail.com</h2>
+            <div class="contact__links">
+                <a href="httsps://github.com/itis821" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" target = "_blank">
+                    <i class = "fa fa-linkedin-square"></i>
+                </a>
+            </div>
+            <p class="contact__rights">
+                2022 Jisu Lee - All rights reserved
+            </p>
+        </section>
+        
+    </body>
 </html>
