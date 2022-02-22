@@ -60,6 +60,14 @@ workBtnContainer.addEventListener('click', (e)=>{
     if(filter == null) {
         return;
     }
+
+    //Remove selection from the previous item and select the new one
+    const active = document.querySelector('.category__btn.selected');
+    if (active != null) {
+        active.classList.remove('selected');
+    }
+    e.target.classList.add('selected');
+
     projectContainer.classList.add('anime-out');
     setTimeout(()=>{
         projects.forEach((project)=>{
